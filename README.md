@@ -138,7 +138,7 @@ Errors follow the shape:
 
 ```bash
 # Generate a migration from entity changes
-pnpm run migration:generate -- src/database/migrations/DescriptiveName
+MIGRATION_NAME=DescriptiveName pnpm run migration:generate
 
 # Apply pending migrations
 pnpm run migration:run
